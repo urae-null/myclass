@@ -231,15 +231,9 @@
                 for (let j = 0; j < 9; j++) classList[i].push(document.getElementById('gongang').checked ? "공강" : " ")
             }
             let cn = 0
-            if (stuid[0] === '2') {
-                classList[4][7] = '창체'
-                classList[4][8] = '창체'
-                classList[4][5] = '동아리'
-                classList[4][6] = '동아리'
-                classList[2][5] = 'SA'
+            if (stuid[0] === '3') {
                 classList[2][6] = 'SA'
                 classList[2][7] = 'SA'
-                classList[2][8] = 'SA'
                 if (document.getElementById('color').checked) colorSet['창체'] = colors[0]
                 ++cn
                 if (document.getElementById('color').checked) colorSet['동아리'] = colors[1]
